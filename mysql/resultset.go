@@ -20,7 +20,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/flike/kingshard/core/hack"
+	"github.com/tenfer/myproxy/core/hack"
 )
 
 type RowData []byte

@@ -18,9 +18,9 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/flike/kingshard/core/errors"
-	"github.com/flike/kingshard/core/golog"
-	"github.com/flike/kingshard/sqlparser"
+	"github.com/tenfer/myproxy/core/errors"
+	"github.com/tenfer/myproxy/core/golog"
+	"github.com/tenfer/myproxy/sqlparser"
 	"strings"
 )
 

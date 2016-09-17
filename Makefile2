@@ -1,12 +1,12 @@
 all: build
 
-build: kingshard
+build: myproxy
 
-kingshard:
+myproxy:
 	go tool yacc -o ./sqlparser/sql.go ./sqlparser/sql.y
 	gofmt -w ./sqlparser/sql.go
 	@bash genver.sh
-	go build -o ./bin/kingshard ./cmd/kingshard
+	go build -o ./bin/myproxy ./cmd/kingshard
 clean:
 	@rm -rf bin
 	@rm -f ./sqlparser/y.output ./sqlparser/sql.go

@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/flike/kingshard/backend"
-	"github.com/flike/kingshard/core/errors"
-	"github.com/flike/kingshard/core/golog"
-	"github.com/flike/kingshard/core/hack"
-	"github.com/flike/kingshard/mysql"
-	"github.com/flike/kingshard/sqlparser"
+	"github.com/tenfer/myproxy/backend"
+	"github.com/tenfer/myproxy/core/errors"
+	"github.com/tenfer/myproxy/core/golog"
+	"github.com/tenfer/myproxy/core/hack"
+	"github.com/tenfer/myproxy/mysql"
+	"github.com/tenfer/myproxy/sqlparser"
 )
 
 type ExecuteDB struct {

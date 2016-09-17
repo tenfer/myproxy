@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/flike/kingshard/mysql"
+	. "github.com/tenfer/myproxy/mysql"
 )
 
 func newTestConn() *Conn {

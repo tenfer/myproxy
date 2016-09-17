@@ -24,10 +24,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/flike/kingshard/config"
-	"github.com/flike/kingshard/core/golog"
-	"github.com/flike/kingshard/core/hack"
-	"github.com/flike/kingshard/proxy/server"
+	"github.com/tenfer/myproxy/config"
+	"github.com/tenfer/myproxy/core/golog"
+	"github.com/tenfer/myproxy/core/hack"
+	"github.com/tenfer/myproxy/proxy/server"
 )
 
 var configFile *string = flag.String("config", "/etc/ks.yaml", "kingshard config file")

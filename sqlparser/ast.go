@@ -22,8 +22,8 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/flike/kingshard/core/hack"
-	"github.com/flike/kingshard/sqltypes"
+	"github.com/tenfer/myproxy/core/hack"
+	"github.com/tenfer/myproxy/sqltypes"
 )
 
 // Instructions for creating new types: If a type

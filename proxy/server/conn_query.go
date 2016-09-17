@@ -21,13 +21,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/flike/kingshard/backend"
-	"github.com/flike/kingshard/core/errors"
-	"github.com/flike/kingshard/core/golog"
-	"github.com/flike/kingshard/core/hack"
-	"github.com/flike/kingshard/mysql"
-	"github.com/flike/kingshard/proxy/router"
-	"github.com/flike/kingshard/sqlparser"
+	"github.com/tenfer/myproxy/backend"
+	"github.com/tenfer/myproxy/core/errors"
+	"github.com/tenfer/myproxy/core/golog"
+	"github.com/tenfer/myproxy/core/hack"
+	"github.com/tenfer/myproxy/mysql"
+	"github.com/tenfer/myproxy/proxy/router"
+	"github.com/tenfer/myproxy/sqlparser"
 )
 
 /*处理query语句*/

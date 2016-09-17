@@ -1,5 +1,5 @@
 #  kingshard [中文主页](README_ZH.md)
-[![Author](https://img.shields.io/badge/author-@flike-blue.svg?style=flat)](http://weibo.com/chenfei001) [![Build Status](https://travis-ci.org/flike/kingshard.svg?branch=master)](https://travis-ci.org/flike/kingshard) [![Project Status](https://img.shields.io/badge/status-stable-green.svg)](https://github.com/flike/kingshard) [![Platform](https://img.shields.io/badge/platform-%20Linux%20macOS%20Windows-green.svg?style=flat)](https://github.com/flike/kingshard)
+[![Author](https://img.shields.io/badge/author-@flike-blue.svg?style=flat)](http://weibo.com/chenfei001) [![Build Status](https://travis-ci.org/tenfer/myproxy.svg?branch=master)](https://travis-ci.org/tenfer/myproxy) [![Project Status](https://img.shields.io/badge/status-stable-green.svg)](https://github.com/tenfer/myproxy) [![Platform](https://img.shields.io/badge/platform-%20Linux%20macOS%20Windows-green.svg?style=flat)](https://github.com/tenfer/myproxy)
 
 ## Overview
 
@@ -30,8 +30,8 @@ kingshard is a high-performance proxy for MySQL powered by Go. Just like other m
 ## Install
 ```
   1. Install Go
-  2. git clone https://github.com/flike/kingshard.git src/github.com/flike/kingshard
-  3. cd src/github.com/flike/kingshard
+  2. git clone https://github.com/tenfer/myproxy.git src/github.com/tenfer/myproxy
+  3. cd src/github.com/tenfer/myproxy
   4. source ./dev.sh
   5. make
   6. set the config file (etc/ks.yaml)
@@ -44,7 +44,7 @@ kingshard is a high-performance proxy for MySQL powered by Go. Just like other m
 
 ## Donate
 
-https://github.com/flike/kingshard/blob/master/doc/KingDoc/support.md
+https://github.com/tenfer/myproxy/blob/master/doc/KingDoc/support.md
 
 ## License
 
